@@ -13,4 +13,8 @@ square.classList.add("square");
 square.style.width = eachSquaresize + "px";
 square.style.height = eachSquaresize + "px";
 container.appendChild(square);
+
+square.addEventListener("mouseenter", () => {
+ square.style.backgroundColor = "blue"
+});
 };
